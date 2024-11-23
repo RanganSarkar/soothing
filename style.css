@@ -1,7 +1,7 @@
 /* General Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
-    background: url('pexels-rangan-sarkar-112977-4259340.jpg') no-repeat center center fixed;
+    background: url('https://example.com/your-image.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -13,35 +13,37 @@ body {
     max-width: 900px;
     margin: 50px auto;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.5); /* Increased transparency for better blending */
+    background: rgba(255, 255, 255, 0.3); /* Increased transparency for full blending */
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow for subtle separation */
     text-align: center;
-    backdrop-filter: blur(10px); /* Adds a frosted glass effect */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for the frosted look */
+    backdrop-filter: blur(15px); /* Stronger frosted glass effect */
+    border: none; /* Removed border for smoother blending */
+    color: #fff; /* White text for readability */
 }
 
 /* Header Styling */
 header {
-    background: rgba(102, 166, 255, 0.8); /* Semi-transparent gradient for blending */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black for better contrast */
     padding: 20px 0;
     border-radius: 15px 15px 0 0;
     color: white;
     font-family: 'Lato', sans-serif;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6); /* Text shadow for better readability */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
     letter-spacing: 2px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow for better readability */
 }
 
 /* Paragraph Styling */
 p {
     font-size: 1.2rem;
     margin: 15px 0;
-    color: #333; /* Slightly darker text for contrast */
+    color: rgba(255, 255, 255, 0.8); /* Semi-transparent white text */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Improves readability on bright backgrounds */
 }
 
 /* Video Player Styling */
@@ -58,23 +60,23 @@ iframe {
     height: 200px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 iframe:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Footer Styling */
 footer {
     margin-top: 30px;
     font-size: 0.9rem;
-    color: #777;
+    color: rgba(255, 255, 255, 0.8); /* Semi-transparent white text */
     text-align: center;
-    background: rgba(255, 255, 255, 0.5); /* Match container transparency */
     padding: 10px;
+    backdrop-filter: blur(5px); /* Slight blur for blending */
     border-radius: 0 0 15px 15px;
 }
 
