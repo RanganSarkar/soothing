@@ -1,7 +1,7 @@
 /* General Body Styling */
 body {
     font-family: 'Roboto', sans-serif;
-    background: url('pexels-rangan-sarkar-112977-4259340.jpg') no-repeat center center fixed;
+    background: url('https://example.com/your-image.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -13,15 +13,17 @@ body {
     max-width: 900px;
     margin: 50px auto;
     padding: 30px;
-    background: rgba(255, 255, 255, 0.9); /* Added slight transparency for better visibility */
+    background: rgba(255, 255, 255, 0.5); /* Increased transparency for better blending */
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
     text-align: center;
+    backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for the frosted look */
 }
 
 /* Header Styling */
 header {
-    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    background: rgba(102, 166, 255, 0.8); /* Semi-transparent gradient for blending */
     padding: 20px 0;
     border-radius: 15px 15px 0 0;
     color: white;
@@ -32,13 +34,14 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
     letter-spacing: 2px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow for better readability */
 }
 
 /* Paragraph Styling */
 p {
     font-size: 1.2rem;
     margin: 15px 0;
-    color: #555;
+    color: #333; /* Slightly darker text for contrast */
 }
 
 /* Video Player Styling */
@@ -70,6 +73,9 @@ footer {
     font-size: 0.9rem;
     color: #777;
     text-align: center;
+    background: rgba(255, 255, 255, 0.5); /* Match container transparency */
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
 }
 
 footer p {
